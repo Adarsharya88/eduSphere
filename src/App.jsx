@@ -1087,10 +1087,12 @@ const MainLayout = () => {
 };
 
 // WRAPPER & DEFAULT EXPORT
-export default function App() {
+ function App() {
   return (
     <AppProvider>
       <MainLayout />
     </AppProvider>
   );
 }
+
+export default App;
